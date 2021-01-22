@@ -1,0 +1,8 @@
+subjects
+build a simple grid system
+
+attribute selectors
+[class^="col-"] - selects class that begin with 'col-'
+
+:not pseudo class
+How calc() works
