@@ -18,7 +18,9 @@
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-      <label for="navi-toggle" class="navigation__button">MENU</label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp</span>
+      </label>
       <div class="navigation__background">&nbsp</div>
 
       <nav class="navigation__nav">
@@ -43,7 +45,7 @@
           <span class="heading-primary--sub">Where life happens</span>
         </h1>
 
-        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+        <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
       </div>
     </header>
 
@@ -132,8 +134,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
-        
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
             Most Popular Tours
@@ -168,7 +169,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">£297</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -201,7 +202,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">£497</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -234,7 +235,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">£897</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -360,12 +361,35 @@
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built by <a href="#" class="footer__link footer__pm">Paul Metcalf</a> during his online course <a href="" class="footer__link">Copyright &copy Jonas Schmedtmann</a>. You are 100% allowed to use this webpage for both personal and commercial use, but not to claim it as your own design.  A credit to the original author, Jonas Schmedtmann, is of course highly appreciated.
+            Built by <a href="#" class="footer__link footer__pm">Paul Metcalf</a>during his online course <a href="" class="footer__link">Copyright &copy Jonas Schmedtmann</a>. You are 100% allowed to use this webpage for both personal and commercial use, but not to claim it as your own design.  A credit to the original author, Jonas Schmedtmann, is of course highly appreciated.
           </p>
         </div>
       </div>
-      
     </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+       <div class="popup__left">
+        <img src="./img/nat-8.jpg" class="popup__img" alt="">
+        <img src="./img/nat-9.jpg" class="popup__img" alt="">
+       </div>
+       <div class="popup__right">
+         <a href="#section-tours" class="popup__close">&times;</a>
+         <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+         <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+         <p class="popup__text">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, maiores ipsam odio molestias odit culpa amet. 
+           Pariatur error incidunt assumenda, perspiciatis mollitia maxime architecto. 
+           Maxime saepe eos dolorem impedit quasi!
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, maiores ipsam odio molestias odit culpa amet. 
+           Pariatur error incidunt assumenda, perspiciatis mollitia maxime architecto. 
+           Maxime saepe eos dolorem impedit quasi!
+         </p>
+         <a href="" class="btn btn--green">Book now</a>
+       </div>
+       
+      </div>
+    </div>
 
     <!--
     <section class="grid-test">
